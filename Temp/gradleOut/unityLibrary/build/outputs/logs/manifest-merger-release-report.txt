@@ -1,0 +1,191 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:2:1-39:12
+	package
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:2:208-236
+		INJECTED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml
+		INJECTED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:2:158-183
+		INJECTED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml
+		INJECTED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:2:70-116
+	xmlns:android
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:2:184-207
+		INJECTED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml
+		INJECTED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml
+	android:installLocation
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:2:117-157
+uses-permission#android.permission.INTERNET
+ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:3:3-65
+	android:name
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:3:20-62
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:4:3-77
+	android:name
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:4:20-74
+permission#io.chabok.starter.permission.C2D_MESSAGE
+ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:7:3-109
+	android:protectionLevel
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:7:71-106
+	android:name
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:7:15-70
+uses-permission#io.chabok.starter.permission.C2D_MESSAGE
+ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:8:3-78
+	android:name
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:8:20-75
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:9:3-80
+	android:name
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:9:20-77
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:11:3-69
+	android:name
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:11:20-66
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:12:3-66
+	android:name
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:12:20-63
+application
+ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:14:3-33:17
+	android:label
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:14:101-133
+	android:debuggable
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:14:134-159
+	android:icon
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:14:160-191
+	android:theme
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:14:59-100
+	android:name
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:14:16-58
+meta-data#com.adpdigital.push.client.PlatformType
+ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:15:5-95
+	android:value
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:15:71-92
+	android:name
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:15:16-70
+activity#io.chabok.starter.ChabokActivity
+ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:16:5-23:16
+	android:screenOrientation
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:16:96-134
+	android:label
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:16:63-95
+	android:launchMode
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:16:135-166
+	android:hardwareAccelerated
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:16:349-384
+	android:configChanges
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:16:167-348
+	android:name
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:16:15-62
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:17:7-20:23
+action#android.intent.action.MAIN
+ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:18:9-61
+	android:name
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:18:17-58
+category#android.intent.category.LAUNCHER
+ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:19:9-69
+	android:name
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:19:19-66
+meta-data#unityplayer.UnityActivity
+ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:21:7-82
+	android:value
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:21:59-79
+	android:name
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:21:18-58
+meta-data#android.notch_support
+ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:22:7-78
+	android:value
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:22:55-75
+	android:name
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:22:18-54
+receiver#com.adpdigital.push.ChabokReferrerReceiver
+ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:24:5-28:16
+	android:exported
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:24:130-153
+	android:permission
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:24:73-129
+	android:name
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:24:15-72
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:25:7-27:23
+action#com.android.vending.INSTALL_REFERRER
+ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:26:9-71
+	android:name
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:26:17-68
+meta-data#unity.splash-mode
+ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:29:5-69
+	android:value
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:29:49-66
+	android:name
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:29:16-48
+meta-data#unity.splash-enable
+ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:30:5-74
+	android:value
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:30:51-71
+	android:name
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:30:16-50
+meta-data#notch.config
+ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:31:5-81
+	android:value
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:31:44-78
+	android:name
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:31:16-43
+meta-data#unity.build-id
+ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:32:5-101
+	android:value
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:32:46-98
+	android:name
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:32:16-45
+uses-feature#0x00030000
+ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:34:3-52
+	android:glEsVersion
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:34:17-49
+uses-feature#android.hardware.vulkan.version
+ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:35:3-91
+	android:required
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:35:64-88
+	android:name
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:35:17-63
+uses-feature#android.hardware.touchscreen
+ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:36:3-88
+	android:required
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:36:61-85
+	android:name
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:36:17-60
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:37:3-99
+	android:required
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:37:72-96
+	android:name
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:37:17-71
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:38:3-108
+	android:required
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:38:81-105
+	android:name
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:38:17-80
+uses-sdk
+INJECTED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml
+INJECTED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml
+INJECTED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml
+INJECTED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml
+		INJECTED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml
+		INJECTED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml
