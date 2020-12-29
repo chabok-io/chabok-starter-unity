@@ -1,0 +1,9 @@
+<!-- Chabok iOS and Android Dependencies. -->
+
+<dependencies>
+  <iosPods>
+    <iosPod name="ChabokPush" version="2.2.1" minTargetSdk="8.0">
+    </iosPod>
+  </iosPods>
+</dependencies>
+

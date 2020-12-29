@@ -1,0 +1,13 @@
+Assets/ExternalDependencyManager/Editor/CHANGELOG.md
+Assets/ExternalDependencyManager/Editor/IOSResolver_v1.2.161.dll
+Assets/ExternalDependencyManager/Editor/IOSResolver_v1.2.161.dll.mdb
+Assets/ExternalDependencyManager/Editor/JarResolver_v1.2.161.dll
+Assets/ExternalDependencyManager/Editor/JarResolver_v1.2.161.dll.mdb
+Assets/ExternalDependencyManager/Editor/PackageManagerResolver_v1.2.161.dll
+Assets/ExternalDependencyManager/Editor/PackageManagerResolver_v1.2.161.dll.mdb
+Assets/ExternalDependencyManager/Editor/VersionHandler.dll
+Assets/ExternalDependencyManager/Editor/VersionHandler.dll.mdb
+Assets/ExternalDependencyManager/Editor/VersionHandlerImpl_v1.2.161.dll
+Assets/ExternalDependencyManager/Editor/VersionHandlerImpl_v1.2.161.dll.mdb
+Assets/ExternalDependencyManager/Editor/LICENSE
+Assets/ExternalDependencyManager/Editor/README.md
