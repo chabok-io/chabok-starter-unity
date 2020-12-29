@@ -1,0 +1,88 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.2.0f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49162
+Successfully changed project path to: /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity
+/Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 44.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.0f1 (3721df5a8b28)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.2.0f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Assets
+GfxDevice: creating device client; threaded=0
+2020-12-23 11:05:06.164 Unity[746:11875] Color LCD preferred device: NVIDIA GeForce GT 650M (high power)
+2020-12-23 11:05:06.164 Unity[746:11875] Metal devices available: 2
+2020-12-23 11:05:06.164 Unity[746:11875] 0: NVIDIA GeForce GT 650M (high power)
+2020-12-23 11:05:06.164 Unity[746:11875] 1: Intel HD Graphics 4000 (low power)
+2020-12-23 11:05:06.165 Unity[746:11875] Using device NVIDIA GeForce GT 650M (high power)
+Initializing Metal device caps: NVIDIA GeForce GT 650M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.2.0f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.2.0f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.2.0f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56746
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.2.0f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000690 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 31.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.923 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008430 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.369 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.2.0f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1121 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.6 MB.
+System memory in use after: 116.7 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 1543.
+Total: 2.090973 ms (FindLiveObjects: 0.165442 ms CreateObjectMapping: 0.042110 ms MarkObjects: 1.802016 ms  DeleteObjects: 0.079734 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/chabok/ExternalDependencyManager/Editor/IOSResolver_v1.2.161.dll
+  artifactKey: Guid(bb80d372f41424e98849bab431b65f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/chabok/ExternalDependencyManager/Editor/IOSResolver_v1.2.161.dll using Guid(bb80d372f41424e98849bab431b65f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0de3fcf192688f7c3cd1e00e99e7b58') in 0.444489 seconds
+  Import took 0.447999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.177074 seconds.
+  path: Assets/chabok/Scripts/ChabokPush/ChabokPush.cs
+  artifactKey: Guid(714621acfeec7464c93f10d186d207b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/chabok/Scripts/ChabokPush/ChabokPush.cs using Guid(714621acfeec7464c93f10d186d207b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23fca18deb4b1789ae67712de416b771') in 0.459484 seconds
+  Import took 0.462661 seconds .
+
