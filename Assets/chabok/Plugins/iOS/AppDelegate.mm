@@ -35,6 +35,10 @@
     [PushClientManager  resetBadge]; //Optional
     [PushClientManager.defaultManager addDelegate:self]; //Optional
 //    [PushClientManager.defaultManager configureEnvironment:Sandbox];
+<<<<<<< HEAD
+    [PushClientManager.defaultManager setEnableRealtime:NO];
+=======
+>>>>>>> master
 
     return [super application:application didFinishLaunchingWithOptions:launchOptions];
 }

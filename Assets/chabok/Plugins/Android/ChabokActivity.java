@@ -1,4 +1,4 @@
-package io.chabok.starter;
+package io.chabok.unity;
 
 import com.unity3d.player.UnityPlayerActivity;
 import android.os.Bundle;

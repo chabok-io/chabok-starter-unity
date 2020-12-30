@@ -12,7 +12,6 @@ public class Main : MonoBehaviour
     string error;
 
 #if UNITY_ANDROID
-    AndroidJavaClass androidChabokPush;
     AndroidPluginCallback callback;
 #endif
 
@@ -24,9 +23,8 @@ public class Main : MonoBehaviour
         //txt.color = Color.white;
 
 #if UNITY_ANDROID
-        androidChabokPush = new AndroidJavaClass("io.chabok.starter.ChabokPush");
         callback = new AndroidPluginCallback();
-        chabokPush = ChabokPush.GetInstance(androidChabokPush);
+        chabokPush = ChabokPush.GetInstance();
 
         //callback.OnSuccess += (count) =>
         //{
@@ -45,13 +43,13 @@ public class Main : MonoBehaviour
         //var UserAttributes = chbokPush.CallStatic<AndroidJavaObject>("getUserAttributes");
 
 #elif UNITY_IOS
-        chabokPush = ChabokPush.GetInstance(null);
+        chabokPush = ChabokPush.GetInstance();
 #endif
 
         chabokPush.Login("SMOOKE");
         Log("   Chabok --> Login : Succeeded");
 
-        chabokPush.AddTag("Hoss", null);
+        chabokPush.AddTag("Hoss");
         Log("   Chabok --> AddTag : Succeeded");
 
 

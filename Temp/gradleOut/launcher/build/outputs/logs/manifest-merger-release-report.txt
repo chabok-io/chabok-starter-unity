@@ -174,7 +174,7 @@ MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/hu
 	android:fullBackupOnly
 		ADDED from [com.adpdigital.push:chabok-lib:3.5.0] /Users/husseinhj/.gradle/caches/transforms-2/files-2.1/23a6498c2c5e6a37184e634490098f1a/jetified-chabok-lib-3.5.0/AndroidManifest.xml:49:9-38
 	android:name
-		ADDED from [:unityLibrary] /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:42:9-51
+		ADDED from [:unityLibrary] /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:42:9-49
 uses-sdk
 INJECTED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/launcher/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
@@ -434,7 +434,7 @@ ADDED from [:unityLibrary] /Users/husseinhj/Documents/chabok/projects/unity/test
 		ADDED from [:unityLibrary] /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:49:13-34
 	android:name
 		ADDED from [:unityLibrary] /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:48:13-67
-activity#io.chabok.starter.ChabokActivity
+activity#io.chabok.unity.ChabokActivity
 ADDED from [:unityLibrary] /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:51:9-70:20
 	android:screenOrientation
 		ADDED from [:unityLibrary] /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:57:13-51
@@ -447,7 +447,7 @@ ADDED from [:unityLibrary] /Users/husseinhj/Documents/chabok/projects/unity/test
 	android:configChanges
 		ADDED from [:unityLibrary] /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:53:13-194
 	android:name
-		ADDED from [:unityLibrary] /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:52:13-60
+		ADDED from [:unityLibrary] /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:52:13-58
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from [:unityLibrary] /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:58:13-62:29
 action#android.intent.action.MAIN

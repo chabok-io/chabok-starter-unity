@@ -1,4 +1,4 @@
-package io.chabok.starter;
+package io.chabok.unity;
 
 import android.os.Bundle;
 import android.util.Log;

@@ -447,7 +447,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteralED3C1912EC734623EB86701B6BCF6DCA79E51F7F
 IL2CPP_EXTERN_C String_t* _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D;
 IL2CPP_EXTERN_C String_t* _stringLiteralF5E5757FBD8F04A55780E7DDE89461E34334064A;
 IL2CPP_EXTERN_C String_t* _stringLiteralF6744B47CAA0FCF3A6888DE50A398A08B7CC6088;
-IL2CPP_EXTERN_C String_t* _stringLiteralFA34E1FDD803044CFEBB3B96506E16D9CDB5B001;
 IL2CPP_EXTERN_C String_t* _stringLiteralFEE9F4FA638B34BB8565B653C1739A2FE8284AC1;
 IL2CPP_EXTERN_C const RuntimeMethod* Array_IndexOf_TisChar_tFF60D8E7E89A20BE2294A003734341BD1DF43E14_mD5F29E323D31B110F267B79CAF2E456F4C77ECE4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisText_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1_m2D99AC2081683F963C56EC738451EC0B59B5D137_RuntimeMethod_var;
@@ -1129,45 +1128,35 @@ struct Il2CppArrayBounds;
 struct  ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236  : public RuntimeObject
 {
 public:
-	// UnityEngine.AndroidJavaClass ChabokPush::androidChbokPush
-	AndroidJavaClass_t52E934B16476D72AA6E4B248F989F2F825EB62D4 * ___androidChbokPush_0;
 
 public:
-	inline static int32_t get_offset_of_androidChbokPush_0() { return static_cast<int32_t>(offsetof(ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236, ___androidChbokPush_0)); }
-	inline AndroidJavaClass_t52E934B16476D72AA6E4B248F989F2F825EB62D4 * get_androidChbokPush_0() const { return ___androidChbokPush_0; }
-	inline AndroidJavaClass_t52E934B16476D72AA6E4B248F989F2F825EB62D4 ** get_address_of_androidChbokPush_0() { return &___androidChbokPush_0; }
-	inline void set_androidChbokPush_0(AndroidJavaClass_t52E934B16476D72AA6E4B248F989F2F825EB62D4 * value)
-	{
-		___androidChbokPush_0 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___androidChbokPush_0), (void*)value);
-	}
 };
 
 struct ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236_StaticFields
 {
 public:
 	// System.Object ChabokPush::podlock
-	RuntimeObject * ___podlock_1;
+	RuntimeObject * ___podlock_0;
 	// ChabokPush ChabokPush::instance
-	ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * ___instance_2;
+	ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * ___instance_1;
 
 public:
-	inline static int32_t get_offset_of_podlock_1() { return static_cast<int32_t>(offsetof(ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236_StaticFields, ___podlock_1)); }
-	inline RuntimeObject * get_podlock_1() const { return ___podlock_1; }
-	inline RuntimeObject ** get_address_of_podlock_1() { return &___podlock_1; }
-	inline void set_podlock_1(RuntimeObject * value)
+	inline static int32_t get_offset_of_podlock_0() { return static_cast<int32_t>(offsetof(ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236_StaticFields, ___podlock_0)); }
+	inline RuntimeObject * get_podlock_0() const { return ___podlock_0; }
+	inline RuntimeObject ** get_address_of_podlock_0() { return &___podlock_0; }
+	inline void set_podlock_0(RuntimeObject * value)
 	{
-		___podlock_1 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___podlock_1), (void*)value);
+		___podlock_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___podlock_0), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_instance_2() { return static_cast<int32_t>(offsetof(ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236_StaticFields, ___instance_2)); }
-	inline ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * get_instance_2() const { return ___instance_2; }
-	inline ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 ** get_address_of_instance_2() { return &___instance_2; }
-	inline void set_instance_2(ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * value)
+	inline static int32_t get_offset_of_instance_1() { return static_cast<int32_t>(offsetof(ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236_StaticFields, ___instance_1)); }
+	inline ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * get_instance_1() const { return ___instance_1; }
+	inline ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 ** get_address_of_instance_1() { return &___instance_1; }
+	inline void set_instance_1(ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * value)
 	{
-		___instance_2 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___instance_2), (void*)value);
+		___instance_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___instance_1), (void*)value);
 	}
 };
 
@@ -2312,15 +2301,6 @@ public:
 		___value_1 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___value_1), (void*)value);
 	}
-};
-
-
-// UnityEngine.AndroidJavaClass
-struct  AndroidJavaClass_t52E934B16476D72AA6E4B248F989F2F825EB62D4  : public AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E
-{
-public:
-
-public:
 };
 
 
@@ -4992,8 +4972,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void onErrorEvent_Invoke_m5F128EA1D514950CB93
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405 (RuntimeObject * __this, const RuntimeMethod* method);
 // System.Void System.Threading.Monitor::Enter(System.Object,System.Boolean&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Monitor_Enter_mBEB6CC84184B46F26375EC3FC8921D16E48EA4C4 (RuntimeObject * ___obj0, bool* ___lockTaken1, const RuntimeMethod* method);
-// System.Void ChabokPush::.ctor(UnityEngine.AndroidJavaClass)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush__ctor_m21DCBAD984E19A8E09792291E367D6A1B8764B89 (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * __this, AndroidJavaClass_t52E934B16476D72AA6E4B248F989F2F825EB62D4 * ___androidChbokPush0, const RuntimeMethod* method);
+// System.Void ChabokPush::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush__ctor_mD6EC45F49A0F06FB7FFC12078BE447706B9014A2 (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * __this, const RuntimeMethod* method);
 // System.Void System.Threading.Monitor::Exit(System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Monitor_Exit_mA776B403DA88AC77CDEEF67AB9F0D0E77ABD254A (RuntimeObject * ___obj0, const RuntimeMethod* method);
 // System.Int32 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Count()
@@ -5034,6 +5014,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_iosLogin_mFA15AC45F7C288ED881
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_iosLogout_mA8C17FCF87028E954169FC4DB22B9A3B3A8488CB (const RuntimeMethod* method);
 // System.Void ChabokPush::iosAddTag(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_iosAddTag_mFB5A168FCC9329FD0CB0685C86B65E12666CE35A (String_t* ___tagName0, const RuntimeMethod* method);
+// System.Void ChabokPush::iosRemoveTag(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_iosRemoveTag_m03A0510C084071859645C44EDBA40119D5AC5332 (String_t* ___tagName0, const RuntimeMethod* method);
 // System.Void ChabokPush::_setUserAttribute(System.Collections.Generic.Dictionary`2<System.String,System.Object>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush__setUserAttribute_m8366BE2C2F5F9C482447E9E2B6CD6261C30BE7D0 (Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * ___attributes0, const RuntimeMethod* method);
 // System.Void ChabokPush::iosIncrementUserAttributeValue(System.String,System.Double)
@@ -5380,18 +5362,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Stopwatch__ctor_mDE97B28A72294ABF18E6E97
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONObject_t86C41C4AA0C3E8F0EA479E624EB4873BB6F58722 * JSONObjectEnumer_get_Current_m1F61D887777122282FF5E9542F430327DBBAED56 (JSONObjectEnumer_t86DDE5059B4DE4CE0F19CD95657262E921FA08A9 * __this, const RuntimeMethod* method);
 // System.Boolean JSONObject::get_IsArray()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONObject_get_IsArray_m192D16D4CC2C846BC1F6FA1A3CFE7A76369738C3 (JSONObject_t86C41C4AA0C3E8F0EA479E624EB4873BB6F58722 * __this, const RuntimeMethod* method);
-// ChabokPush ChabokPush::GetInstance(UnityEngine.AndroidJavaClass)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * ChabokPush_GetInstance_m31FC371E595DA725FDF85041798ECDE58833DC21 (AndroidJavaClass_t52E934B16476D72AA6E4B248F989F2F825EB62D4 * ___androidChbokPush0, const RuntimeMethod* method);
-// System.Void ChabokPush::login(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_login_m92FAB65DE12B16F6AF5E1FD6CFC13E35B2E7A5CF (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * __this, String_t* ___userId0, const RuntimeMethod* method);
+// ChabokPush ChabokPush::GetInstance()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * ChabokPush_GetInstance_m26FEDFC5A1DCBD5428D99B3E28491AA201754A8E (const RuntimeMethod* method);
+// System.Void ChabokPush::Login(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_Login_m74957D1F851F54EAF62236D5A081053FFE3A1CA4 (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * __this, String_t* ___userId0, const RuntimeMethod* method);
 // System.Void Main::Log(System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Main_Log_m426DA9189457956ADD558035C095906128B6AFCC (Main_tDB418C89D33CD2699713F36E95C4373C8892C046 * __this, RuntimeObject * ___text0, const RuntimeMethod* method);
-// System.Void ChabokPush::addTag(System.String,AndroidPluginCallback)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_addTag_m6410B1DF3D5A9902F959C9D67C6C4001EF1B7B78 (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * __this, String_t* ___tagName0, AndroidPluginCallback_t68DBCC0DC81B27A51BE81DE1345D027D6C6AF0F7 * ___callback1, const RuntimeMethod* method);
+// System.Void ChabokPush::AddTag(System.String,AndroidPluginCallback)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_AddTag_mA3C018FFC5CBBFBC066883E0738F1797F9C99E31 (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * __this, String_t* ___tagName0, AndroidPluginCallback_t68DBCC0DC81B27A51BE81DE1345D027D6C6AF0F7 * ___callback1, const RuntimeMethod* method);
 // System.Void System.DateTime::.ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DateTime__ctor_m4DA8AA49E6923EDCFB8927D588AE3D79B218545D (DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 * __this, int32_t ___year0, int32_t ___month1, int32_t ___day2, int32_t ___hour3, int32_t ___minute4, int32_t ___second5, const RuntimeMethod* method);
-// System.String System.DateTime::ToString()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DateTime_ToString_m242888E500DFD8CD675BDC455BC696AF47813954 (DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 * __this, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::.ctor()
 inline void Dictionary_2__ctor_mCD0C2F0325B7677B9BC340A60AA3FB9C7A88FF63 (Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * __this, const RuntimeMethod* method)
 {
@@ -5402,22 +5382,22 @@ inline void Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F (Dictiona
 {
 	((  void (*) (Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 *, String_t*, RuntimeObject *, const RuntimeMethod*))Dictionary_2_Add_m830DC29CD6F7128D4990D460CCCDE032E3B693D9_gshared)(__this, ___key0, ___value1, method);
 }
-// System.Void ChabokPush::setUserAttributes(System.Collections.Generic.Dictionary`2<System.String,System.Object>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_setUserAttributes_m24AF5C5993A123903252D4C715DC4186F95C27BC (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * __this, Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * ___attributes0, const RuntimeMethod* method);
-// System.Void ChabokPush::incrementUserAttribute(System.String,System.Double)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_incrementUserAttribute_m9EE0DA6554BDB6D9AF44E6F29F1A5039C756A3F0 (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * __this, String_t* ___attribute0, double ___value1, const RuntimeMethod* method);
-// System.Void ChabokPush::decrementUserAttribute(System.String,System.Double)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_decrementUserAttribute_mD54EB0F727ECD34C22558F80B22981FF974203D9 (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * __this, String_t* ___attribute0, double ___value1, const RuntimeMethod* method);
-// System.Void ChabokPush::addToUserAttributeArray(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_addToUserAttributeArray_m8992B9410C40832CAA5F4663AA700A6EB287A019 (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * __this, String_t* ___key0, String_t* ___value1, const RuntimeMethod* method);
-// System.Void ChabokPush::removeFromUserAttributeArray(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_removeFromUserAttributeArray_m10BA61DFC376CBC8C64D5F745FDD2AB183919148 (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * __this, String_t* ___key0, String_t* ___value1, const RuntimeMethod* method);
-// System.Void ChabokPush::track(System.String,System.Collections.Generic.Dictionary`2<System.String,System.Object>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_track_mA409131E4F0EAC98A4CAD2616776B93E8DE077AC (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * __this, String_t* ___title0, Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * ___eventData1, const RuntimeMethod* method);
-// System.Void ChabokPush::trackRevenue(System.Double)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_trackRevenue_mBFA7029ABE12992973BC9441366476EC32CE3F1D (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * __this, double ___value0, const RuntimeMethod* method);
-// System.Void ChabokPush::trackPurchase(System.String,System.Double,System.String,System.Collections.Generic.Dictionary`2<System.String,System.Object>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_trackPurchase_m57A1813CED9C22D1BFF6E7737C3AFDB1F551086D (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * __this, String_t* ___title0, double ___value1, String_t* ___currency2, Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * ___purchaseData3, const RuntimeMethod* method);
+// System.Void ChabokPush::SetUserAttributes(System.Collections.Generic.Dictionary`2<System.String,System.Object>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_SetUserAttributes_m07C0D80DD48C56D469496E6393BC9AE9CDBA2834 (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * __this, Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * ___attributes0, const RuntimeMethod* method);
+// System.Void ChabokPush::IncrementUserAttribute(System.String,System.Double)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_IncrementUserAttribute_m1685634A22A0531928A2CEDD536F613BEF469274 (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * __this, String_t* ___attribute0, double ___value1, const RuntimeMethod* method);
+// System.Void ChabokPush::DecrementUserAttribute(System.String,System.Double)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_DecrementUserAttribute_m1C1315FE16AFB989D9D1303D7C3483ECB3BF94B8 (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * __this, String_t* ___attribute0, double ___value1, const RuntimeMethod* method);
+// System.Void ChabokPush::AddToUserAttributeArray(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_AddToUserAttributeArray_mE9AECAE9B2762B69C35B1338753E474FE8B2F4BC (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * __this, String_t* ___key0, String_t* ___value1, const RuntimeMethod* method);
+// System.Void ChabokPush::RemoveFromUserAttributeArray(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_RemoveFromUserAttributeArray_m2858929DD18FE9D45D6D9B0CE262EE8B273E6E3E (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * __this, String_t* ___key0, String_t* ___value1, const RuntimeMethod* method);
+// System.Void ChabokPush::Track(System.String,System.Collections.Generic.Dictionary`2<System.String,System.Object>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_Track_mA98231BFF3F781875A29D1131646886930A57AFD (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * __this, String_t* ___title0, Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * ___eventData1, const RuntimeMethod* method);
+// System.Void ChabokPush::TrackRevenue(System.Double)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_TrackRevenue_m6A4C7699099B3D13BAAA060E81345CAEDC1CA942 (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * __this, double ___value0, const RuntimeMethod* method);
+// System.Void ChabokPush::TrackPurchase(System.String,System.Double,System.String,System.Collections.Generic.Dictionary`2<System.String,System.Object>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_TrackPurchase_m6F2C40F93614899622B2248C9892C65617399418 (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * __this, String_t* ___title0, double ___value1, String_t* ___currency2, Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * ___purchaseData3, const RuntimeMethod* method);
 // System.Void UnityEngine.Application/LogCallback::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LogCallback__ctor_mB5F165ECC180A20258EF4EFF589D88FB9F9E9C57 (LogCallback_t8C3C9B1E0F185E2A25D09DE10DD8414898698BBD * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method);
 // System.Void UnityEngine.Application::add_logMessageReceived(UnityEngine.Application/LogCallback)
@@ -5482,6 +5462,7 @@ IL2CPP_EXTERN_C void DEFAULT_CALL iosLogout();
 IL2CPP_EXTERN_C void DEFAULT_CALL iosSubscribeEvent(char*);
 IL2CPP_EXTERN_C void DEFAULT_CALL iosAddTag(char*);
 IL2CPP_EXTERN_C void DEFAULT_CALL iosAddTags(char**, int32_t);
+IL2CPP_EXTERN_C void DEFAULT_CALL iosRemoveTag(char*);
 IL2CPP_EXTERN_C void DEFAULT_CALL iosRemoveTags(char**, int32_t);
 IL2CPP_EXTERN_C void DEFAULT_CALL iosAddToUserAttributeArray(char*, char*);
 IL2CPP_EXTERN_C void DEFAULT_CALL iosSetUserAttribute(char**, char*, char*, int32_t);
@@ -5855,21 +5836,18 @@ IL_0026:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void ChabokPush::.ctor(UnityEngine.AndroidJavaClass)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush__ctor_m21DCBAD984E19A8E09792291E367D6A1B8764B89 (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * __this, AndroidJavaClass_t52E934B16476D72AA6E4B248F989F2F825EB62D4 * ___androidChbokPush0, const RuntimeMethod* method)
+// System.Void ChabokPush::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush__ctor_mD6EC45F49A0F06FB7FFC12078BE447706B9014A2 (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * __this, const RuntimeMethod* method)
 {
 	{
-		// private ChabokPush(AndroidJavaClass androidChbokPush) {
+		// private ChabokPush() {
 		Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405(__this, /*hidden argument*/NULL);
-		// this.androidChbokPush = androidChbokPush;
-		AndroidJavaClass_t52E934B16476D72AA6E4B248F989F2F825EB62D4 * L_0 = ___androidChbokPush0;
-		__this->set_androidChbokPush_0(L_0);
 		// }
 		return;
 	}
 }
-// ChabokPush ChabokPush::GetInstance(UnityEngine.AndroidJavaClass)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * ChabokPush_GetInstance_m31FC371E595DA725FDF85041798ECDE58833DC21 (AndroidJavaClass_t52E934B16476D72AA6E4B248F989F2F825EB62D4 * ___androidChbokPush0, const RuntimeMethod* method)
+// ChabokPush ChabokPush::GetInstance()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * ChabokPush_GetInstance_m26FEDFC5A1DCBD5428D99B3E28491AA201754A8E (const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -5889,16 +5867,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ChabokPush_tD8CD35A9D6867726265038A610222C5C0
 	{
 		// if (instance == null)
 		IL2CPP_RUNTIME_CLASS_INIT(ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236_il2cpp_TypeInfo_var);
-		ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * L_0 = ((ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236_StaticFields*)il2cpp_codegen_static_fields_for(ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236_il2cpp_TypeInfo_var))->get_instance_2();
+		ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * L_0 = ((ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236_StaticFields*)il2cpp_codegen_static_fields_for(ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236_il2cpp_TypeInfo_var))->get_instance_1();
 		if (L_0)
 		{
-			goto IL_0035;
+			goto IL_0034;
 		}
 	}
 	{
 		// lock (podlock)
 		IL2CPP_RUNTIME_CLASS_INIT(ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236_il2cpp_TypeInfo_var);
-		RuntimeObject * L_1 = ((ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236_StaticFields*)il2cpp_codegen_static_fields_for(ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236_il2cpp_TypeInfo_var))->get_podlock_1();
+		RuntimeObject * L_1 = ((ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236_StaticFields*)il2cpp_codegen_static_fields_for(ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236_il2cpp_TypeInfo_var))->get_podlock_0();
 		V_0 = L_1;
 		V_1 = (bool)0;
 	}
@@ -5911,68 +5889,67 @@ IL_000f:
 			Monitor_Enter_mBEB6CC84184B46F26375EC3FC8921D16E48EA4C4(L_2, (bool*)(&V_1), /*hidden argument*/NULL);
 			// if (instance == null)
 			IL2CPP_RUNTIME_CLASS_INIT(ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236_il2cpp_TypeInfo_var);
-			ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * L_3 = ((ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236_StaticFields*)il2cpp_codegen_static_fields_for(ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236_il2cpp_TypeInfo_var))->get_instance_2();
+			ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * L_3 = ((ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236_StaticFields*)il2cpp_codegen_static_fields_for(ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236_il2cpp_TypeInfo_var))->get_instance_1();
 			if (L_3)
 			{
-				goto IL_0029;
+				goto IL_0028;
 			}
 		}
 
 IL_001e:
 		{
-			// instance = new ChabokPush(androidChbokPush);
-			AndroidJavaClass_t52E934B16476D72AA6E4B248F989F2F825EB62D4 * L_4 = ___androidChbokPush0;
-			ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * L_5 = (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 *)il2cpp_codegen_object_new(ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236_il2cpp_TypeInfo_var);
-			ChabokPush__ctor_m21DCBAD984E19A8E09792291E367D6A1B8764B89(L_5, L_4, /*hidden argument*/NULL);
+			// instance = new ChabokPush();
+			ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * L_4 = (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 *)il2cpp_codegen_object_new(ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236_il2cpp_TypeInfo_var);
+			ChabokPush__ctor_mD6EC45F49A0F06FB7FFC12078BE447706B9014A2(L_4, /*hidden argument*/NULL);
 			IL2CPP_RUNTIME_CLASS_INIT(ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236_il2cpp_TypeInfo_var);
-			((ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236_StaticFields*)il2cpp_codegen_static_fields_for(ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236_il2cpp_TypeInfo_var))->set_instance_2(L_5);
+			((ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236_StaticFields*)il2cpp_codegen_static_fields_for(ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236_il2cpp_TypeInfo_var))->set_instance_1(L_4);
 		}
 
-IL_0029:
+IL_0028:
 		{
 			// }
-			IL2CPP_LEAVE(0x35, FINALLY_002b);
+			IL2CPP_LEAVE(0x34, FINALLY_002a);
 		}
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
 		__last_unhandled_exception = (Exception_t *)e.ex;
-		goto FINALLY_002b;
+		goto FINALLY_002a;
 	}
 
-FINALLY_002b:
+FINALLY_002a:
 	{ // begin finally (depth: 1)
 		{
-			bool L_6 = V_1;
-			if (!L_6)
+			bool L_5 = V_1;
+			if (!L_5)
 			{
-				goto IL_0034;
+				goto IL_0033;
 			}
 		}
 
-IL_002e:
+IL_002d:
 		{
-			RuntimeObject * L_7 = V_0;
-			Monitor_Exit_mA776B403DA88AC77CDEEF67AB9F0D0E77ABD254A(L_7, /*hidden argument*/NULL);
+			RuntimeObject * L_6 = V_0;
+			Monitor_Exit_mA776B403DA88AC77CDEEF67AB9F0D0E77ABD254A(L_6, /*hidden argument*/NULL);
 		}
 
-IL_0034:
+IL_0033:
 		{
-			IL2CPP_END_FINALLY(43)
+			IL2CPP_END_FINALLY(42)
 		}
 	} // end finally (depth: 1)
-	IL2CPP_CLEANUP(43)
+	IL2CPP_CLEANUP(42)
 	{
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
-		IL2CPP_JUMP_TBL(0x35, IL_0035)
+		IL2CPP_JUMP_TBL(0x34, IL_0034)
 	}
 
-IL_0035:
+IL_0034:
 	{
 		// return instance;
 		IL2CPP_RUNTIME_CLASS_INIT(ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236_il2cpp_TypeInfo_var);
-		ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * L_8 = ((ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236_StaticFields*)il2cpp_codegen_static_fields_for(ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236_il2cpp_TypeInfo_var))->get_instance_2();
-		return L_8;
+		ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * L_7 = ((ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236_StaticFields*)il2cpp_codegen_static_fields_for(ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236_il2cpp_TypeInfo_var))->get_instance_1();
+		return L_7;
 	}
 }
 // System.Void ChabokPush::iosLogin(System.String)
@@ -6072,6 +6049,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_iosAddTags_mBF398D746EEF50AF9
 		il2cpp_codegen_marshal_free(____tags0_marshaled);
 		____tags0_marshaled = NULL;
 	}
+
+}
+// System.Void ChabokPush::iosRemoveTag(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_iosRemoveTag_m03A0510C084071859645C44EDBA40119D5AC5332 (String_t* ___tagName0, const RuntimeMethod* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (char*);
+
+	// Marshaling of parameter '___tagName0' to native representation
+	char* ____tagName0_marshaled = NULL;
+	____tagName0_marshaled = il2cpp_codegen_marshal_string(___tagName0);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(iosRemoveTag)(____tagName0_marshaled);
+
+	// Marshaling cleanup of parameter '___tagName0' native representation
+	il2cpp_codegen_marshal_free(____tagName0_marshaled);
+	____tagName0_marshaled = NULL;
 
 }
 // System.Void ChabokPush::iosRemoveTags(System.String[],System.Int32)
@@ -7091,8 +7085,8 @@ IL_006b:
 		return _stringLiteral2F1705A1AA8BA6FCE863E7F2CBA4BC28458C77AE;
 	}
 }
-// System.Void ChabokPush::login(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_login_m92FAB65DE12B16F6AF5E1FD6CFC13E35B2E7A5CF (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * __this, String_t* ___userId0, const RuntimeMethod* method)
+// System.Void ChabokPush::Login(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_Login_m74957D1F851F54EAF62236D5A081053FFE3A1CA4 (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * __this, String_t* ___userId0, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -7109,8 +7103,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_login_m92FAB65DE12B16F6AF5E1F
 		return;
 	}
 }
-// System.Void ChabokPush::logout()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_logout_mC443EB07F16135D51EF92A5595D6EFA2B652F6F0 (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * __this, const RuntimeMethod* method)
+// System.Void ChabokPush::Logout()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_Logout_mCE629D3B2984F83B0E787FCD638F88067344C147 (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * __this, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -7126,8 +7120,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_logout_mC443EB07F16135D51EF92
 		return;
 	}
 }
-// System.Void ChabokPush::addTag(System.String,AndroidPluginCallback)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_addTag_m6410B1DF3D5A9902F959C9D67C6C4001EF1B7B78 (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * __this, String_t* ___tagName0, AndroidPluginCallback_t68DBCC0DC81B27A51BE81DE1345D027D6C6AF0F7 * ___callback1, const RuntimeMethod* method)
+// System.Void ChabokPush::AddTag(System.String,AndroidPluginCallback)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_AddTag_mA3C018FFC5CBBFBC066883E0738F1797F9C99E31 (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * __this, String_t* ___tagName0, AndroidPluginCallback_t68DBCC0DC81B27A51BE81DE1345D027D6C6AF0F7 * ___callback1, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -7144,8 +7138,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_addTag_m6410B1DF3D5A9902F959C
 		return;
 	}
 }
-// System.Void ChabokPush::setUserAttributes(System.Collections.Generic.Dictionary`2<System.String,System.Object>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_setUserAttributes_m24AF5C5993A123903252D4C715DC4186F95C27BC (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * __this, Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * ___attributes0, const RuntimeMethod* method)
+// System.Void ChabokPush::RemoveTag(System.String,AndroidPluginCallback)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_RemoveTag_mBA0660A6AECB4BACEDA7F8FDC4DD5C6A1A0EE54C (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * __this, String_t* ___tagName0, AndroidPluginCallback_t68DBCC0DC81B27A51BE81DE1345D027D6C6AF0F7 * ___callback1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// iosRemoveTag(tagName);
+		String_t* L_0 = ___tagName0;
+		IL2CPP_RUNTIME_CLASS_INIT(ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236_il2cpp_TypeInfo_var);
+		ChabokPush_iosRemoveTag_m03A0510C084071859645C44EDBA40119D5AC5332(L_0, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void ChabokPush::SetUserAttributes(System.Collections.Generic.Dictionary`2<System.String,System.Object>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_SetUserAttributes_m07C0D80DD48C56D469496E6393BC9AE9CDBA2834 (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * __this, Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * ___attributes0, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -7162,8 +7174,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_setUserAttributes_m24AF5C5993
 		return;
 	}
 }
-// System.Void ChabokPush::incrementUserAttribute(System.String,System.Double)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_incrementUserAttribute_m9EE0DA6554BDB6D9AF44E6F29F1A5039C756A3F0 (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * __this, String_t* ___attribute0, double ___value1, const RuntimeMethod* method)
+// System.Void ChabokPush::IncrementUserAttribute(System.String,System.Double)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_IncrementUserAttribute_m1685634A22A0531928A2CEDD536F613BEF469274 (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * __this, String_t* ___attribute0, double ___value1, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -7181,8 +7193,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_incrementUserAttribute_m9EE0D
 		return;
 	}
 }
-// System.Void ChabokPush::decrementUserAttribute(System.String,System.Double)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_decrementUserAttribute_mD54EB0F727ECD34C22558F80B22981FF974203D9 (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * __this, String_t* ___attribute0, double ___value1, const RuntimeMethod* method)
+// System.Void ChabokPush::DecrementUserAttribute(System.String,System.Double)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_DecrementUserAttribute_m1C1315FE16AFB989D9D1303D7C3483ECB3BF94B8 (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * __this, String_t* ___attribute0, double ___value1, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -7200,8 +7212,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_decrementUserAttribute_mD54EB
 		return;
 	}
 }
-// System.Void ChabokPush::addToUserAttributeArray(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_addToUserAttributeArray_m8992B9410C40832CAA5F4663AA700A6EB287A019 (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * __this, String_t* ___key0, String_t* ___value1, const RuntimeMethod* method)
+// System.Void ChabokPush::AddToUserAttributeArray(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_AddToUserAttributeArray_mE9AECAE9B2762B69C35B1338753E474FE8B2F4BC (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * __this, String_t* ___key0, String_t* ___value1, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -7219,8 +7231,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_addToUserAttributeArray_m8992
 		return;
 	}
 }
-// System.Void ChabokPush::removeFromUserAttributeArray(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_removeFromUserAttributeArray_m10BA61DFC376CBC8C64D5F745FDD2AB183919148 (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * __this, String_t* ___key0, String_t* ___value1, const RuntimeMethod* method)
+// System.Void ChabokPush::RemoveFromUserAttributeArray(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_RemoveFromUserAttributeArray_m2858929DD18FE9D45D6D9B0CE262EE8B273E6E3E (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * __this, String_t* ___key0, String_t* ___value1, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -7238,8 +7250,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_removeFromUserAttributeArray_
 		return;
 	}
 }
-// System.Void ChabokPush::track(System.String,System.Collections.Generic.Dictionary`2<System.String,System.Object>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_track_mA409131E4F0EAC98A4CAD2616776B93E8DE077AC (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * __this, String_t* ___title0, Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * ___eventData1, const RuntimeMethod* method)
+// System.Void ChabokPush::Track(System.String,System.Collections.Generic.Dictionary`2<System.String,System.Object>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_Track_mA98231BFF3F781875A29D1131646886930A57AFD (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * __this, String_t* ___title0, Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * ___eventData1, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -7257,8 +7269,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_track_mA409131E4F0EAC98A4CAD2
 		return;
 	}
 }
-// System.Void ChabokPush::trackRevenue(System.Double)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_trackRevenue_mBFA7029ABE12992973BC9441366476EC32CE3F1D (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * __this, double ___value0, const RuntimeMethod* method)
+// System.Void ChabokPush::TrackRevenue(System.Double)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_TrackRevenue_m6A4C7699099B3D13BAAA060E81345CAEDC1CA942 (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * __this, double ___value0, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -7275,8 +7287,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_trackRevenue_mBFA7029ABE12992
 		return;
 	}
 }
-// System.Void ChabokPush::trackPurchase(System.String,System.Double,System.String,System.Collections.Generic.Dictionary`2<System.String,System.Object>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_trackPurchase_m57A1813CED9C22D1BFF6E7737C3AFDB1F551086D (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * __this, String_t* ___title0, double ___value1, String_t* ___currency2, Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * ___purchaseData3, const RuntimeMethod* method)
+// System.Void ChabokPush::TrackPurchase(System.String,System.Double,System.String,System.Collections.Generic.Dictionary`2<System.String,System.Object>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush_TrackPurchase_m6F2C40F93614899622B2248C9892C65617399418 (ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * __this, String_t* ___title0, double ___value1, String_t* ___currency2, Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * ___purchaseData3, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -7333,9 +7345,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChabokPush__cctor_mA564927A8D7574D441D0E
 		// private static readonly object podlock = new object();
 		RuntimeObject * L_0 = (RuntimeObject *)il2cpp_codegen_object_new(RuntimeObject_il2cpp_TypeInfo_var);
 		Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405(L_0, /*hidden argument*/NULL);
-		((ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236_StaticFields*)il2cpp_codegen_static_fields_for(ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236_il2cpp_TypeInfo_var))->set_podlock_1(L_0);
+		((ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236_StaticFields*)il2cpp_codegen_static_fields_for(ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236_il2cpp_TypeInfo_var))->set_podlock_0(L_0);
 		// private static ChabokPush instance = null;
-		((ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236_StaticFields*)il2cpp_codegen_static_fields_for(ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236_il2cpp_TypeInfo_var))->set_instance_2((ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 *)NULL);
+		((ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236_StaticFields*)il2cpp_codegen_static_fields_for(ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236_il2cpp_TypeInfo_var))->set_instance_1((ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 *)NULL);
 		return;
 	}
 }
@@ -12842,7 +12854,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Main_Start_m3F24386331750B440050C96242A7
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralED3C1912EC734623EB86701B6BCF6DCA79E51F7F);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF5E5757FBD8F04A55780E7DDE89461E34334064A);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF6744B47CAA0FCF3A6888DE50A398A08B7CC6088);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFA34E1FDD803044CFEBB3B96506E16D9CDB5B001);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFEE9F4FA638B34BB8565B653C1739A2FE8284AC1);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -12859,229 +12870,223 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Main_Start_m3F24386331750B440050C96242A7
 	StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* V_7 = NULL;
 	Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * V_8 = NULL;
 	{
-		// chabokPush = ChabokPush.GetInstance(null);
+		// chabokPush = ChabokPush.GetInstance();
 		IL2CPP_RUNTIME_CLASS_INIT(ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236_il2cpp_TypeInfo_var);
 		ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * L_0;
-		L_0 = ChabokPush_GetInstance_m31FC371E595DA725FDF85041798ECDE58833DC21((AndroidJavaClass_t52E934B16476D72AA6E4B248F989F2F825EB62D4 *)NULL, /*hidden argument*/NULL);
+		L_0 = ChabokPush_GetInstance_m26FEDFC5A1DCBD5428D99B3E28491AA201754A8E(/*hidden argument*/NULL);
 		__this->set_chabokPush_7(L_0);
-		// chabokPush.login("SMOOKE");
+		// chabokPush.Login("SMOOKE");
 		ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * L_1 = __this->get_chabokPush_7();
 		NullCheck(L_1);
-		ChabokPush_login_m92FAB65DE12B16F6AF5E1FD6CFC13E35B2E7A5CF(L_1, _stringLiteral1DA520A6918DA67342F6D3A11B7796701CDFC871, /*hidden argument*/NULL);
+		ChabokPush_Login_m74957D1F851F54EAF62236D5A081053FFE3A1CA4(L_1, _stringLiteral1DA520A6918DA67342F6D3A11B7796701CDFC871, /*hidden argument*/NULL);
 		// Log("   Chabok --> Login : Succeeded");
 		Main_Log_m426DA9189457956ADD558035C095906128B6AFCC(__this, _stringLiteral387662C9A326D3E411B80614F2923E0A45213D3E, /*hidden argument*/NULL);
-		// chabokPush.addTag("Hoss", null);
+		// chabokPush.AddTag("Hoss");
 		ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * L_2 = __this->get_chabokPush_7();
 		NullCheck(L_2);
-		ChabokPush_addTag_m6410B1DF3D5A9902F959C9D67C6C4001EF1B7B78(L_2, _stringLiteralBE95F14B294498A053E2A3388F29261A95F7E571, (AndroidPluginCallback_t68DBCC0DC81B27A51BE81DE1345D027D6C6AF0F7 *)NULL, /*hidden argument*/NULL);
+		ChabokPush_AddTag_mA3C018FFC5CBBFBC066883E0738F1797F9C99E31(L_2, _stringLiteralBE95F14B294498A053E2A3388F29261A95F7E571, (AndroidPluginCallback_t68DBCC0DC81B27A51BE81DE1345D027D6C6AF0F7 *)NULL, /*hidden argument*/NULL);
 		// Log("   Chabok --> AddTag : Succeeded");
 		Main_Log_m426DA9189457956ADD558035C095906128B6AFCC(__this, _stringLiteralEC287F78D98F4A8B0C22265938D0C94FF90FC171, /*hidden argument*/NULL);
 		// var birthdayDate = new DateTime(1993,5,19, 20,10,33);
 		DateTime__ctor_m4DA8AA49E6923EDCFB8927D588AE3D79B218545D((DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 *)(&V_0), ((int32_t)1993), 5, ((int32_t)19), ((int32_t)20), ((int32_t)10), ((int32_t)33), /*hidden argument*/NULL);
-		// Log("   Chabok --> dateeeeeeee : Succeeded     " + birthdayDate);
-		String_t* L_3;
-		L_3 = DateTime_ToString_m242888E500DFD8CD675BDC455BC696AF47813954((DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 *)(&V_0), /*hidden argument*/NULL);
-		String_t* L_4;
-		L_4 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(_stringLiteralFA34E1FDD803044CFEBB3B96506E16D9CDB5B001, L_3, /*hidden argument*/NULL);
-		Main_Log_m426DA9189457956ADD558035C095906128B6AFCC(__this, L_4, /*hidden argument*/NULL);
 		// string[] favorites = { "Sport","TV", "Book", "Coding" };
-		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_5 = (StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)SZArrayNew(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var, (uint32_t)4);
+		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_3 = (StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)SZArrayNew(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var, (uint32_t)4);
+		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_4 = L_3;
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, _stringLiteral688DAF8365F2089E7ED7C16138972E5239A50B2A);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral688DAF8365F2089E7ED7C16138972E5239A50B2A);
+		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_5 = L_4;
+		NullCheck(L_5);
+		ArrayElementTypeCheck (L_5, _stringLiteral8FEA2EDB43B6373E211547DF5AB654D25934B827);
+		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)_stringLiteral8FEA2EDB43B6373E211547DF5AB654D25934B827);
 		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_6 = L_5;
 		NullCheck(L_6);
-		ArrayElementTypeCheck (L_6, _stringLiteral688DAF8365F2089E7ED7C16138972E5239A50B2A);
-		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral688DAF8365F2089E7ED7C16138972E5239A50B2A);
+		ArrayElementTypeCheck (L_6, _stringLiteralAF12339BAFE5071170B1E358779B8AE7C00A38AC);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteralAF12339BAFE5071170B1E358779B8AE7C00A38AC);
 		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_7 = L_6;
 		NullCheck(L_7);
-		ArrayElementTypeCheck (L_7, _stringLiteral8FEA2EDB43B6373E211547DF5AB654D25934B827);
-		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)_stringLiteral8FEA2EDB43B6373E211547DF5AB654D25934B827);
-		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_8 = L_7;
-		NullCheck(L_8);
-		ArrayElementTypeCheck (L_8, _stringLiteralAF12339BAFE5071170B1E358779B8AE7C00A38AC);
-		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteralAF12339BAFE5071170B1E358779B8AE7C00A38AC);
-		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_9 = L_8;
-		NullCheck(L_9);
-		ArrayElementTypeCheck (L_9, _stringLiteral7036BA73163DAA855C27E7DC7A4EFABC45E304C3);
-		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)_stringLiteral7036BA73163DAA855C27E7DC7A4EFABC45E304C3);
-		V_1 = L_9;
+		ArrayElementTypeCheck (L_7, _stringLiteral7036BA73163DAA855C27E7DC7A4EFABC45E304C3);
+		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)_stringLiteral7036BA73163DAA855C27E7DC7A4EFABC45E304C3);
+		V_1 = L_7;
 		// Dictionary<string, object> attributes = new Dictionary<string, object>();
-		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_10 = (Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 *)il2cpp_codegen_object_new(Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_mCD0C2F0325B7677B9BC340A60AA3FB9C7A88FF63(L_10, /*hidden argument*/Dictionary_2__ctor_mCD0C2F0325B7677B9BC340A60AA3FB9C7A88FF63_RuntimeMethod_var);
-		V_2 = L_10;
+		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_8 = (Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 *)il2cpp_codegen_object_new(Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_mCD0C2F0325B7677B9BC340A60AA3FB9C7A88FF63(L_8, /*hidden argument*/Dictionary_2__ctor_mCD0C2F0325B7677B9BC340A60AA3FB9C7A88FF63_RuntimeMethod_var);
+		V_2 = L_8;
 		// attributes.Add("FirstName", "Hossein");
-		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_11 = V_2;
-		NullCheck(L_11);
-		Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F(L_11, _stringLiteral98A6C258598283701F58B97B11A6F4BE184680B5, _stringLiteral92005D7137C29BFA8D55427CB7512A49F739ECC4, /*hidden argument*/Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F_RuntimeMethod_var);
+		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_9 = V_2;
+		NullCheck(L_9);
+		Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F(L_9, _stringLiteral98A6C258598283701F58B97B11A6F4BE184680B5, _stringLiteral92005D7137C29BFA8D55427CB7512A49F739ECC4, /*hidden argument*/Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F_RuntimeMethod_var);
 		// attributes.Add("Age", 26);
-		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_12 = V_2;
-		int32_t L_13 = ((int32_t)26);
-		RuntimeObject * L_14 = Box(Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var, &L_13);
-		NullCheck(L_12);
-		Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F(L_12, _stringLiteral6996DC0CC92C7C284749109C7F02D201312B6A5C, L_14, /*hidden argument*/Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F_RuntimeMethod_var);
+		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_10 = V_2;
+		int32_t L_11 = ((int32_t)26);
+		RuntimeObject * L_12 = Box(Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var, &L_11);
+		NullCheck(L_10);
+		Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F(L_10, _stringLiteral6996DC0CC92C7C284749109C7F02D201312B6A5C, L_12, /*hidden argument*/Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F_RuntimeMethod_var);
 		// attributes.Add("Rating", 20);
-		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_15 = V_2;
-		int32_t L_16 = ((int32_t)20);
-		RuntimeObject * L_17 = Box(Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var, &L_16);
-		NullCheck(L_15);
-		Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F(L_15, _stringLiteralBD44D684FF80592612D10DBEA03749DC162B2814, L_17, /*hidden argument*/Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F_RuntimeMethod_var);
+		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_13 = V_2;
+		int32_t L_14 = ((int32_t)20);
+		RuntimeObject * L_15 = Box(Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var, &L_14);
+		NullCheck(L_13);
+		Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F(L_13, _stringLiteralBD44D684FF80592612D10DBEA03749DC162B2814, L_15, /*hidden argument*/Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F_RuntimeMethod_var);
 		// attributes.Add("Ration", 3.85);
-		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_18 = V_2;
-		double L_19 = (3.8500000000000001);
-		RuntimeObject * L_20 = Box(Double_t42821932CB52DE2057E685D0E1AF3DE5033D2181_il2cpp_TypeInfo_var, &L_19);
-		NullCheck(L_18);
-		Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F(L_18, _stringLiteralC7436BD01144335ED4A469BD8EEEF3DE6244EF06, L_20, /*hidden argument*/Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F_RuntimeMethod_var);
+		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_16 = V_2;
+		double L_17 = (3.8500000000000001);
+		RuntimeObject * L_18 = Box(Double_t42821932CB52DE2057E685D0E1AF3DE5033D2181_il2cpp_TypeInfo_var, &L_17);
+		NullCheck(L_16);
+		Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F(L_16, _stringLiteralC7436BD01144335ED4A469BD8EEEF3DE6244EF06, L_18, /*hidden argument*/Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F_RuntimeMethod_var);
 		// attributes.Add("Male", false);
-		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_21 = V_2;
-		bool L_22 = ((bool)0);
-		RuntimeObject * L_23 = Box(Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_il2cpp_TypeInfo_var, &L_22);
-		NullCheck(L_21);
-		Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F(L_21, _stringLiteral9216BDEF5172F1DBAACFFF605E8C99BD4A930973, L_23, /*hidden argument*/Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F_RuntimeMethod_var);
+		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_19 = V_2;
+		bool L_20 = ((bool)0);
+		RuntimeObject * L_21 = Box(Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_il2cpp_TypeInfo_var, &L_20);
+		NullCheck(L_19);
+		Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F(L_19, _stringLiteral9216BDEF5172F1DBAACFFF605E8C99BD4A930973, L_21, /*hidden argument*/Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F_RuntimeMethod_var);
 		// attributes.Add("Birthday", birthdayDate);
-		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_24 = V_2;
-		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  L_25 = V_0;
-		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  L_26 = L_25;
-		RuntimeObject * L_27 = Box(DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405_il2cpp_TypeInfo_var, &L_26);
-		NullCheck(L_24);
-		Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F(L_24, _stringLiteralF6744B47CAA0FCF3A6888DE50A398A08B7CC6088, L_27, /*hidden argument*/Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F_RuntimeMethod_var);
+		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_22 = V_2;
+		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  L_23 = V_0;
+		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  L_24 = L_23;
+		RuntimeObject * L_25 = Box(DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405_il2cpp_TypeInfo_var, &L_24);
+		NullCheck(L_22);
+		Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F(L_22, _stringLiteralF6744B47CAA0FCF3A6888DE50A398A08B7CC6088, L_25, /*hidden argument*/Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F_RuntimeMethod_var);
 		// attributes.Add("Favorites", favorites);
-		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_28 = V_2;
-		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_29 = V_1;
+		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_26 = V_2;
+		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_27 = V_1;
+		NullCheck(L_26);
+		Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F(L_26, _stringLiteral90769F53329CDE4435A77180E60F42364B329519, (RuntimeObject *)(RuntimeObject *)L_27, /*hidden argument*/Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F_RuntimeMethod_var);
+		// chabokPush.SetUserAttributes(attributes);
+		ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * L_28 = __this->get_chabokPush_7();
+		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_29 = V_2;
 		NullCheck(L_28);
-		Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F(L_28, _stringLiteral90769F53329CDE4435A77180E60F42364B329519, (RuntimeObject *)(RuntimeObject *)L_29, /*hidden argument*/Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F_RuntimeMethod_var);
-		// chabokPush.setUserAttributes(attributes);
-		ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * L_30 = __this->get_chabokPush_7();
-		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_31 = V_2;
-		NullCheck(L_30);
-		ChabokPush_setUserAttributes_m24AF5C5993A123903252D4C715DC4186F95C27BC(L_30, L_31, /*hidden argument*/NULL);
+		ChabokPush_SetUserAttributes_m07C0D80DD48C56D469496E6393BC9AE9CDBA2834(L_28, L_29, /*hidden argument*/NULL);
 		// Log("   Chabok --> SetUserAttributes : Succeeded");
 		Main_Log_m426DA9189457956ADD558035C095906128B6AFCC(__this, _stringLiteralE49F526F33D8B64E5C93A5D5649D7D5F968A075C, /*hidden argument*/NULL);
-		// chabokPush.incrementUserAttribute("Age", 2.0);
-		ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * L_32 = __this->get_chabokPush_7();
-		NullCheck(L_32);
-		ChabokPush_incrementUserAttribute_m9EE0DA6554BDB6D9AF44E6F29F1A5039C756A3F0(L_32, _stringLiteral6996DC0CC92C7C284749109C7F02D201312B6A5C, (2.0), /*hidden argument*/NULL);
+		// chabokPush.IncrementUserAttribute("Age", 2.0);
+		ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * L_30 = __this->get_chabokPush_7();
+		NullCheck(L_30);
+		ChabokPush_IncrementUserAttribute_m1685634A22A0531928A2CEDD536F613BEF469274(L_30, _stringLiteral6996DC0CC92C7C284749109C7F02D201312B6A5C, (2.0), /*hidden argument*/NULL);
 		// Log("   Chabok --> IncrementUserAttribute : Succeeded");
 		Main_Log_m426DA9189457956ADD558035C095906128B6AFCC(__this, _stringLiteral7A767413CF3615981E3F378B2C401F9413BCD42C, /*hidden argument*/NULL);
-		// chabokPush.decrementUserAttribute("Rating", 7.0);
-		ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * L_33 = __this->get_chabokPush_7();
-		NullCheck(L_33);
-		ChabokPush_decrementUserAttribute_mD54EB0F727ECD34C22558F80B22981FF974203D9(L_33, _stringLiteralBD44D684FF80592612D10DBEA03749DC162B2814, (7.0), /*hidden argument*/NULL);
+		// chabokPush.DecrementUserAttribute("Rating", 7.0);
+		ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * L_31 = __this->get_chabokPush_7();
+		NullCheck(L_31);
+		ChabokPush_DecrementUserAttribute_m1C1315FE16AFB989D9D1303D7C3483ECB3BF94B8(L_31, _stringLiteralBD44D684FF80592612D10DBEA03749DC162B2814, (7.0), /*hidden argument*/NULL);
 		// Log("   Chabok --> DecrementUserAttribute : Succeeded");
 		Main_Log_m426DA9189457956ADD558035C095906128B6AFCC(__this, _stringLiteralF5E5757FBD8F04A55780E7DDE89461E34334064A, /*hidden argument*/NULL);
-		// chabokPush.addToUserAttributeArray("Favorites", "Sleeping");
-		ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * L_34 = __this->get_chabokPush_7();
-		NullCheck(L_34);
-		ChabokPush_addToUserAttributeArray_m8992B9410C40832CAA5F4663AA700A6EB287A019(L_34, _stringLiteral90769F53329CDE4435A77180E60F42364B329519, _stringLiteral052291F7DB4D20D4A05868B4E2B2FBA30E8C72BE, /*hidden argument*/NULL);
+		// chabokPush.AddToUserAttributeArray("Favorites", "Sleeping");
+		ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * L_32 = __this->get_chabokPush_7();
+		NullCheck(L_32);
+		ChabokPush_AddToUserAttributeArray_mE9AECAE9B2762B69C35B1338753E474FE8B2F4BC(L_32, _stringLiteral90769F53329CDE4435A77180E60F42364B329519, _stringLiteral052291F7DB4D20D4A05868B4E2B2FBA30E8C72BE, /*hidden argument*/NULL);
 		// Log("   Chabok --> AddToUserAttributeArray : Succeeded");
 		Main_Log_m426DA9189457956ADD558035C095906128B6AFCC(__this, _stringLiteralE4BD3ABD4F5DBC17E019A412606C5F7C99C9ABEA, /*hidden argument*/NULL);
-		// chabokPush.removeFromUserAttributeArray("Favorites", "Book");
-		ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * L_35 = __this->get_chabokPush_7();
-		NullCheck(L_35);
-		ChabokPush_removeFromUserAttributeArray_m10BA61DFC376CBC8C64D5F745FDD2AB183919148(L_35, _stringLiteral90769F53329CDE4435A77180E60F42364B329519, _stringLiteralAF12339BAFE5071170B1E358779B8AE7C00A38AC, /*hidden argument*/NULL);
+		// chabokPush.RemoveFromUserAttributeArray("Favorites", "Book");
+		ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * L_33 = __this->get_chabokPush_7();
+		NullCheck(L_33);
+		ChabokPush_RemoveFromUserAttributeArray_m2858929DD18FE9D45D6D9B0CE262EE8B273E6E3E(L_33, _stringLiteral90769F53329CDE4435A77180E60F42364B329519, _stringLiteralAF12339BAFE5071170B1E358779B8AE7C00A38AC, /*hidden argument*/NULL);
 		// Log("   Chabok --> RemoveFromUserAttributeArray : Succeeded");
 		Main_Log_m426DA9189457956ADD558035C095906128B6AFCC(__this, _stringLiteral609C21B8A252D459962504AA2276A0E24B2878EF, /*hidden argument*/NULL);
 		// var expDate = new DateTime(2021, 10, 14, 11, 22, 33);
 		DateTime__ctor_m4DA8AA49E6923EDCFB8927D588AE3D79B218545D((DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 *)(&V_3), ((int32_t)2021), ((int32_t)10), ((int32_t)14), ((int32_t)11), ((int32_t)22), ((int32_t)33), /*hidden argument*/NULL);
 		// string[] editedFields = { "name", "family", "phone"};
-		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_36 = (StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)SZArrayNew(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var, (uint32_t)3);
+		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_34 = (StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)SZArrayNew(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var, (uint32_t)3);
+		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_35 = L_34;
+		NullCheck(L_35);
+		ArrayElementTypeCheck (L_35, _stringLiteralCE18B047107AA23D1AA9B2ED32D316148E02655F);
+		(L_35)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteralCE18B047107AA23D1AA9B2ED32D316148E02655F);
+		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_36 = L_35;
+		NullCheck(L_36);
+		ArrayElementTypeCheck (L_36, _stringLiteral319D1EB2B79ACDA1B65E4BA4BA666745E69FEECF);
+		(L_36)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)_stringLiteral319D1EB2B79ACDA1B65E4BA4BA666745E69FEECF);
 		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_37 = L_36;
 		NullCheck(L_37);
-		ArrayElementTypeCheck (L_37, _stringLiteralCE18B047107AA23D1AA9B2ED32D316148E02655F);
-		(L_37)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteralCE18B047107AA23D1AA9B2ED32D316148E02655F);
-		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_38 = L_37;
-		NullCheck(L_38);
-		ArrayElementTypeCheck (L_38, _stringLiteral319D1EB2B79ACDA1B65E4BA4BA666745E69FEECF);
-		(L_38)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)_stringLiteral319D1EB2B79ACDA1B65E4BA4BA666745E69FEECF);
-		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_39 = L_38;
-		NullCheck(L_39);
-		ArrayElementTypeCheck (L_39, _stringLiteralE60E55FFA39342CB1DB630CDA80C3E018BCD5145);
-		(L_39)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteralE60E55FFA39342CB1DB630CDA80C3E018BCD5145);
-		V_4 = L_39;
+		ArrayElementTypeCheck (L_37, _stringLiteralE60E55FFA39342CB1DB630CDA80C3E018BCD5145);
+		(L_37)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteralE60E55FFA39342CB1DB630CDA80C3E018BCD5145);
+		V_4 = L_37;
 		// Dictionary<string, object> eventData = new Dictionary<string, object>();
-		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_40 = (Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 *)il2cpp_codegen_object_new(Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_mCD0C2F0325B7677B9BC340A60AA3FB9C7A88FF63(L_40, /*hidden argument*/Dictionary_2__ctor_mCD0C2F0325B7677B9BC340A60AA3FB9C7A88FF63_RuntimeMethod_var);
-		V_5 = L_40;
+		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_38 = (Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 *)il2cpp_codegen_object_new(Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_mCD0C2F0325B7677B9BC340A60AA3FB9C7A88FF63(L_38, /*hidden argument*/Dictionary_2__ctor_mCD0C2F0325B7677B9BC340A60AA3FB9C7A88FF63_RuntimeMethod_var);
+		V_5 = L_38;
 		// eventData.Add("Edited Profile Title2", "Smooke");
-		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_41 = V_5;
-		NullCheck(L_41);
-		Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F(L_41, _stringLiteral62564D387B16A3803250F43550BB3601EFD53E90, _stringLiteral7744FB15E8739D759829A38383DDCF47358A2096, /*hidden argument*/Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F_RuntimeMethod_var);
+		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_39 = V_5;
+		NullCheck(L_39);
+		Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F(L_39, _stringLiteral62564D387B16A3803250F43550BB3601EFD53E90, _stringLiteral7744FB15E8739D759829A38383DDCF47358A2096, /*hidden argument*/Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F_RuntimeMethod_var);
 		// eventData.Add("Edited2", false);
-		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_42 = V_5;
-		bool L_43 = ((bool)0);
-		RuntimeObject * L_44 = Box(Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_il2cpp_TypeInfo_var, &L_43);
-		NullCheck(L_42);
-		Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F(L_42, _stringLiteral9B616C76333DA9EEE6F490F452DA4E08A004E0F2, L_44, /*hidden argument*/Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F_RuntimeMethod_var);
+		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_40 = V_5;
+		bool L_41 = ((bool)0);
+		RuntimeObject * L_42 = Box(Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_il2cpp_TypeInfo_var, &L_41);
+		NullCheck(L_40);
+		Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F(L_40, _stringLiteral9B616C76333DA9EEE6F490F452DA4E08A004E0F2, L_42, /*hidden argument*/Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F_RuntimeMethod_var);
 		// eventData.Add("Edited items2", 12);
-		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_45 = V_5;
-		int32_t L_46 = ((int32_t)12);
-		RuntimeObject * L_47 = Box(Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var, &L_46);
-		NullCheck(L_45);
-		Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F(L_45, _stringLiteral9DFDC5E5D14ABE1881B487BEE6650B1E5F9AEC01, L_47, /*hidden argument*/Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F_RuntimeMethod_var);
+		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_43 = V_5;
+		int32_t L_44 = ((int32_t)12);
+		RuntimeObject * L_45 = Box(Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var, &L_44);
+		NullCheck(L_43);
+		Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F(L_43, _stringLiteral9DFDC5E5D14ABE1881B487BEE6650B1E5F9AEC01, L_45, /*hidden argument*/Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F_RuntimeMethod_var);
 		// eventData.Add("ExpDate", expDate);
-		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_48 = V_5;
-		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  L_49 = V_3;
-		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  L_50 = L_49;
-		RuntimeObject * L_51 = Box(DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405_il2cpp_TypeInfo_var, &L_50);
-		NullCheck(L_48);
-		Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F(L_48, _stringLiteral9F10603D7AF69CA2B90934A25E3CAEE4BB99FA70, L_51, /*hidden argument*/Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F_RuntimeMethod_var);
+		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_46 = V_5;
+		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  L_47 = V_3;
+		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  L_48 = L_47;
+		RuntimeObject * L_49 = Box(DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405_il2cpp_TypeInfo_var, &L_48);
+		NullCheck(L_46);
+		Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F(L_46, _stringLiteral9F10603D7AF69CA2B90934A25E3CAEE4BB99FA70, L_49, /*hidden argument*/Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F_RuntimeMethod_var);
 		// eventData.Add("EditedFields", editedFields);
-		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_52 = V_5;
-		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_53 = V_4;
+		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_50 = V_5;
+		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_51 = V_4;
+		NullCheck(L_50);
+		Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F(L_50, _stringLiteralCACBCAED8E6677B2E4D1925BBEE222A72F075836, (RuntimeObject *)(RuntimeObject *)L_51, /*hidden argument*/Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F_RuntimeMethod_var);
+		// chabokPush.Track("Profile Edits",eventData);
+		ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * L_52 = __this->get_chabokPush_7();
+		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_53 = V_5;
 		NullCheck(L_52);
-		Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F(L_52, _stringLiteralCACBCAED8E6677B2E4D1925BBEE222A72F075836, (RuntimeObject *)(RuntimeObject *)L_53, /*hidden argument*/Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F_RuntimeMethod_var);
-		// chabokPush.track("Profile Edits",eventData);
-		ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * L_54 = __this->get_chabokPush_7();
-		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_55 = V_5;
-		NullCheck(L_54);
-		ChabokPush_track_mA409131E4F0EAC98A4CAD2616776B93E8DE077AC(L_54, _stringLiteralFEE9F4FA638B34BB8565B653C1739A2FE8284AC1, L_55, /*hidden argument*/NULL);
+		ChabokPush_Track_mA98231BFF3F781875A29D1131646886930A57AFD(L_52, _stringLiteralFEE9F4FA638B34BB8565B653C1739A2FE8284AC1, L_53, /*hidden argument*/NULL);
 		// Log("   Chabok --> Track : Succeeded");
 		Main_Log_m426DA9189457956ADD558035C095906128B6AFCC(__this, _stringLiteralCF7BD9E95AB6A4FDFFEC5B20FF9595C7F1F28305, /*hidden argument*/NULL);
-		// chabokPush.trackRevenue(20000.0);
-		ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * L_56 = __this->get_chabokPush_7();
-		NullCheck(L_56);
-		ChabokPush_trackRevenue_mBFA7029ABE12992973BC9441366476EC32CE3F1D(L_56, (20000.0), /*hidden argument*/NULL);
+		// chabokPush.TrackRevenue(20000.0);
+		ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * L_54 = __this->get_chabokPush_7();
+		NullCheck(L_54);
+		ChabokPush_TrackRevenue_m6A4C7699099B3D13BAAA060E81345CAEDC1CA942(L_54, (20000.0), /*hidden argument*/NULL);
 		// Log("   Chabok --> TrackRevenue : Succeeded");
 		Main_Log_m426DA9189457956ADD558035C095906128B6AFCC(__this, _stringLiteralC36907BC3283133F5640F6886CE37197C479727D, /*hidden argument*/NULL);
 		// var purchaseDate = new DateTime(2021, 10, 14, 11, 22, 33);
 		DateTime__ctor_m4DA8AA49E6923EDCFB8927D588AE3D79B218545D((DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 *)(&V_6), ((int32_t)2021), ((int32_t)10), ((int32_t)14), ((int32_t)11), ((int32_t)22), ((int32_t)33), /*hidden argument*/NULL);
 		// string[] card = { "rice", "tuna"};
-		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_57 = (StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)SZArrayNew(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var, (uint32_t)2);
-		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_58 = L_57;
-		NullCheck(L_58);
-		ArrayElementTypeCheck (L_58, _stringLiteral00170DE1B1F87AB5BC0E1ACB89EC1E8761028DDB);
-		(L_58)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral00170DE1B1F87AB5BC0E1ACB89EC1E8761028DDB);
-		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_59 = L_58;
-		NullCheck(L_59);
-		ArrayElementTypeCheck (L_59, _stringLiteralED3C1912EC734623EB86701B6BCF6DCA79E51F7F);
-		(L_59)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)_stringLiteralED3C1912EC734623EB86701B6BCF6DCA79E51F7F);
-		V_7 = L_59;
+		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_55 = (StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)SZArrayNew(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var, (uint32_t)2);
+		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_56 = L_55;
+		NullCheck(L_56);
+		ArrayElementTypeCheck (L_56, _stringLiteral00170DE1B1F87AB5BC0E1ACB89EC1E8761028DDB);
+		(L_56)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral00170DE1B1F87AB5BC0E1ACB89EC1E8761028DDB);
+		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_57 = L_56;
+		NullCheck(L_57);
+		ArrayElementTypeCheck (L_57, _stringLiteralED3C1912EC734623EB86701B6BCF6DCA79E51F7F);
+		(L_57)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)_stringLiteralED3C1912EC734623EB86701B6BCF6DCA79E51F7F);
+		V_7 = L_57;
 		// Dictionary<string, object> revenueDic = new Dictionary<string, object>();
-		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_60 = (Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 *)il2cpp_codegen_object_new(Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_mCD0C2F0325B7677B9BC340A60AA3FB9C7A88FF63(L_60, /*hidden argument*/Dictionary_2__ctor_mCD0C2F0325B7677B9BC340A60AA3FB9C7A88FF63_RuntimeMethod_var);
-		V_8 = L_60;
+		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_58 = (Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 *)il2cpp_codegen_object_new(Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_mCD0C2F0325B7677B9BC340A60AA3FB9C7A88FF63(L_58, /*hidden argument*/Dictionary_2__ctor_mCD0C2F0325B7677B9BC340A60AA3FB9C7A88FF63_RuntimeMethod_var);
+		V_8 = L_58;
 		// revenueDic.Add("Badge", "VIP");
-		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_61 = V_8;
-		NullCheck(L_61);
-		Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F(L_61, _stringLiteralE383FC68E38A26C06F89B3817E7A6A8D9B42EC42, _stringLiteral4E910634FD1B4E69D8A04A4EC4B3A4E1D7C65C70, /*hidden argument*/Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F_RuntimeMethod_var);
+		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_59 = V_8;
+		NullCheck(L_59);
+		Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F(L_59, _stringLiteralE383FC68E38A26C06F89B3817E7A6A8D9B42EC42, _stringLiteral4E910634FD1B4E69D8A04A4EC4B3A4E1D7C65C70, /*hidden argument*/Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F_RuntimeMethod_var);
 		// revenueDic.Add("Discount", "18%");
-		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_62 = V_8;
-		NullCheck(L_62);
-		Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F(L_62, _stringLiteral2CD3A58A758D76D844ED9738C8E97E391BE3F2A9, _stringLiteralB15CD2F429F36DD25EB8839CCFD610CB005268F4, /*hidden argument*/Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F_RuntimeMethod_var);
+		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_60 = V_8;
+		NullCheck(L_60);
+		Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F(L_60, _stringLiteral2CD3A58A758D76D844ED9738C8E97E391BE3F2A9, _stringLiteralB15CD2F429F36DD25EB8839CCFD610CB005268F4, /*hidden argument*/Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F_RuntimeMethod_var);
 		// revenueDic.Add("PurchaseDate", purchaseDate);
-		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_63 = V_8;
-		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  L_64 = V_6;
-		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  L_65 = L_64;
-		RuntimeObject * L_66 = Box(DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405_il2cpp_TypeInfo_var, &L_65);
-		NullCheck(L_63);
-		Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F(L_63, _stringLiteralC384FC3C39C9AC30043193059DA0638FF8928E99, L_66, /*hidden argument*/Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F_RuntimeMethod_var);
+		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_61 = V_8;
+		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  L_62 = V_6;
+		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  L_63 = L_62;
+		RuntimeObject * L_64 = Box(DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405_il2cpp_TypeInfo_var, &L_63);
+		NullCheck(L_61);
+		Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F(L_61, _stringLiteralC384FC3C39C9AC30043193059DA0638FF8928E99, L_64, /*hidden argument*/Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F_RuntimeMethod_var);
 		// revenueDic.Add("Card", card);
-		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_67 = V_8;
-		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_68 = V_7;
+		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_65 = V_8;
+		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_66 = V_7;
+		NullCheck(L_65);
+		Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F(L_65, _stringLiteralE3F21DCF0EA9BEEE61C939C25E335B1DB4C9EF9E, (RuntimeObject *)(RuntimeObject *)L_66, /*hidden argument*/Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F_RuntimeMethod_var);
+		// chabokPush.TrackPurchase("VIP Purchase", 500000.0, "IRR", revenueDic);
+		ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * L_67 = __this->get_chabokPush_7();
+		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_68 = V_8;
 		NullCheck(L_67);
-		Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F(L_67, _stringLiteralE3F21DCF0EA9BEEE61C939C25E335B1DB4C9EF9E, (RuntimeObject *)(RuntimeObject *)L_68, /*hidden argument*/Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F_RuntimeMethod_var);
-		// chabokPush.trackPurchase("VIP Purchase", 500000.0, "IRR", revenueDic);
-		ChabokPush_tD8CD35A9D6867726265038A610222C5C06308236 * L_69 = __this->get_chabokPush_7();
-		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_70 = V_8;
-		NullCheck(L_69);
-		ChabokPush_trackPurchase_m57A1813CED9C22D1BFF6E7737C3AFDB1F551086D(L_69, _stringLiteralC793A84A0561BAC7662A5C2978058A0359D8C0A0, (500000.0), _stringLiteral5D7E10FB1136637DF3EEA7E332D50E75ECCFAE35, L_70, /*hidden argument*/NULL);
+		ChabokPush_TrackPurchase_m6F2C40F93614899622B2248C9892C65617399418(L_67, _stringLiteralC793A84A0561BAC7662A5C2978058A0359D8C0A0, (500000.0), _stringLiteral5D7E10FB1136637DF3EEA7E332D50E75ECCFAE35, L_68, /*hidden argument*/NULL);
 		// Log("   Chabok --> TrackPurchase : Succeeded");
 		Main_Log_m426DA9189457956ADD558035C095906128B6AFCC(__this, _stringLiteral3E8CAAA11C75D11B813C686E18F3E02443B2A332, /*hidden argument*/NULL);
 		// }
