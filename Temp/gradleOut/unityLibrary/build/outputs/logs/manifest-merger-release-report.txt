@@ -58,35 +58,35 @@ ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok
 application
 ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:14:3-33:17
 	android:label
-		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:14:101-133
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:14:99-131
 	android:debuggable
-		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:14:134-159
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:14:132-157
 	android:icon
-		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:14:160-191
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:14:158-189
 	android:theme
-		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:14:59-100
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:14:57-98
 	android:name
-		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:14:16-58
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:14:16-56
 meta-data#com.adpdigital.push.client.PlatformType
 ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:15:5-95
 	android:value
 		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:15:71-92
 	android:name
 		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:15:16-70
-activity#io.chabok.starter.ChabokActivity
+activity#io.chabok.unity.ChabokActivity
 ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:16:5-23:16
 	android:screenOrientation
-		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:16:96-134
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:16:94-132
 	android:label
-		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:16:63-95
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:16:61-93
 	android:launchMode
-		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:16:135-166
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:16:133-164
 	android:hardwareAccelerated
-		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:16:349-384
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:16:347-382
 	android:configChanges
-		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:16:167-348
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:16:165-346
 	android:name
-		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:16:15-62
+		ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:16:15-60
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:17:7-20:23
 action#android.intent.action.MAIN

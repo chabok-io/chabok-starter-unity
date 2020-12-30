@@ -4,7 +4,7 @@
 4    package="io.chabok.starter"
 5    android:installLocation="preferExternal"
 6    android:versionCode="1"
-7    android:versionName="0.1" >
+7    android:versionName="1.0.0" >
 8
 9    <uses-sdk
 10        android:minSdkVersion="19"
@@ -160,8 +160,8 @@
 76
 77    <application
 77-->/Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:3-116
-78        android:name="io.chabok.starter.ChabokApp"
-78-->[:unityLibrary] /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:42:9-51
+78        android:name="io.chabok.unity.ChabokApp"
+78-->[:unityLibrary] /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:42:9-49
 79        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 79-->[androidx.core:core:1.2.0] /Users/husseinhj/.gradle/caches/transforms-2/files-2.1/7faca25a56e7b36aa8d8c2bb49b77a5e/core-1.2.0/AndroidManifest.xml:24:18-86
 80        android:backupAgent="com.adpdigital.push.service.ChabokBackupAgent"
@@ -189,8 +189,8 @@
 91
 92        <activity
 92-->[:unityLibrary] /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:51:9-70:20
-93            android:name="io.chabok.starter.ChabokActivity"
-93-->[:unityLibrary] /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:52:13-60
+93            android:name="io.chabok.unity.ChabokActivity"
+93-->[:unityLibrary] /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:52:13-58
 94            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
 94-->[:unityLibrary] /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:53:13-194
 95            android:hardwareAccelerated="false"
@@ -264,7 +264,7 @@
 131-->[:unityLibrary] /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:90:9-92:68
 132            android:name="unity.build-id"
 132-->[:unityLibrary] /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:91:13-42
-133            android:value="f7ddd7a9-b2a4-4274-8555-4f3e9ba18a9b" />
+133            android:value="69c20736-717d-42c4-b207-601aaeaf0c99" />
 133-->[:unityLibrary] /Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:92:13-65
 134
 135        <provider

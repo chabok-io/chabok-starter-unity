@@ -1,4 +1,4 @@
-package io.chabok.starter;
+package io.chabok.unity;
 
 import android.app.Application;
 import android.content.Context;
