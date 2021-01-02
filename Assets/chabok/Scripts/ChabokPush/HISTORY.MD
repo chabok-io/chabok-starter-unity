@@ -6,11 +6,11 @@
 - Update: android SDK version[4.5.0](https://doc.chabok.io/android/release-note.html#%D9%86%D8%B3%D8%AE%D9%87-%DB%B3%DB%B5%DB%B0---%DB%B1%DB%B3%DB%B9%DB%B9%DB%B0%DB%B9%DB%B0%DB%B4)
 
 ###  IOS       ###
-- Add: IOS support: version[2.2.1]()
+- Add: IOS support: version[2.3.0](https://doc.chabok.io/ios/release-note.html#%D9%86%D8%B3%D8%AE%D9%87-%DB%B2%DB%B3%DB%B0---%DB%B1%DB%B3%DB%B9%DB%B9%DB%B1%DB%B0%DB%B1%DB%B3)
 - Add: automatic podfile creation.
 
 
-# Common Feature :
+### Common Feature :
 - Add: method `chabokLogin`
 - Add: method `chabokLogout`
 - Add: method `chabokAddTag`
@@ -22,11 +22,6 @@
 - Add: method `chabokTrack`
 - Add: method `chabokTrackRevenue`
 - Add: method `chabokTrackPurchase`
-- Add: method ``
-- Add: method ``
-- Add: method ``
-- Add: method ``
-- Add: method ``
 
 
 ## v0.4
