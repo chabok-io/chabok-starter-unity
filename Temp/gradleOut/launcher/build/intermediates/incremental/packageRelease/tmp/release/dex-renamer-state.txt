@@ -1,4 +1,0 @@
-#Wed Dec 30 16:07:05 IRST 2020
-base.0=/Users/husseinhj/Documents/chabok/projects/unity/test-projects/chabok unity/Temp/gradleOut/launcher/build/intermediates/dex/release/out/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex

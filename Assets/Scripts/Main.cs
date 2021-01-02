@@ -22,9 +22,10 @@ public class Main : MonoBehaviour
 
         //txt.color = Color.white;
 
+        chabokPush = ChabokPush.GetInstance();
+
 #if UNITY_ANDROID
         callback = new AndroidPluginCallback();
-        chabokPush = ChabokPush.GetInstance();
 
         //callback.OnSuccess += (count) =>
         //{
@@ -41,9 +42,6 @@ public class Main : MonoBehaviour
         //chbokPush.CallStatic("setUserAttribute", "rating");
         //chbokPush.CallStatic("unsetUserAttribute", "rating");
         //var UserAttributes = chbokPush.CallStatic<AndroidJavaObject>("getUserAttributes");
-
-#elif UNITY_IOS
-        chabokPush = ChabokPush.GetInstance();
 #endif
 
         chabokPush.Login("SMOOKE");
