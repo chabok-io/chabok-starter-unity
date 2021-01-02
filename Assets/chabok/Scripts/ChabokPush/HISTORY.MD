@@ -22,11 +22,6 @@
 - Add: method `chabokTrack`
 - Add: method `chabokTrackRevenue`
 - Add: method `chabokTrackPurchase`
-- Add: method ``
-- Add: method ``
-- Add: method ``
-- Add: method ``
-- Add: method ``
 
 
 ## v0.4
