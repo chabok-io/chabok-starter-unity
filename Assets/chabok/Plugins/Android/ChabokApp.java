@@ -45,14 +45,6 @@ public class ChabokApp extends Application {
 		AdpPushClient.get().setEnableRealtime(false);
 		AdpPushClient.get().setDevelopment(true);
 				 
-				 
-		String userId = AdpPushClient.get().getUserId();
-        if (userId != null) {
-            AdpPushClient.get().login(userId);
-        } else {
-            AdpPushClient.get().logout();
-        }
-				 
     }
 
     
