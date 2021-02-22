@@ -60,6 +60,24 @@ extern "C" {
 
 #pragma mark - Functions
 
+//bool iosIsLoggedIn() {
+//    NSLog(@"(CHABOK UNITY) isLoggedIn");
+//    [PushClientManager.defaultManager isLoggedIn];
+//}
+
+char* iosGetReferralId() {
+//    NSString *_userId = [[NSString alloc] initWithUTF8String:userId];
+//    NSLog(@"(CHABOK UNITY) login: %s",userId);
+//    [PushClientManager.defaultManager login:_userId];
+//    -(void) chabokReferralResponse:(NSString *)referralId {
+//        // received referralId
+//    }
+    
+//    NSString *_userId =[PushClientManager.defaultManager chabokReferralResponse];
+    return strdup("abc");
+    
+}
+
 void iosLogin(const char *userId) {
     NSString *_userId = [[NSString alloc] initWithUTF8String:userId];
     NSLog(@"(CHABOK UNITY) login: %s",userId);

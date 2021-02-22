@@ -13,6 +13,7 @@ public class Main : MonoBehaviour
 
 #if UNITY_ANDROID
     AndroidPluginCallback callback;
+    
 #endif
 
     ChabokPush chabokPush;
@@ -37,6 +38,8 @@ public class Main : MonoBehaviour
         //};
 
         
+
+        
         //String userId = chbokPush.CallStatic<String>("getUserId");
         //chbokPush.CallStatic("addTag", "Smooke", callback);
         //chbokPush.CallStatic("setUserAttribute", "rating");
@@ -44,15 +47,41 @@ public class Main : MonoBehaviour
         //var UserAttributes = chbokPush.CallStatic<AndroidJavaObject>("getUserAttributes");
 #endif
 
-        chabokPush.Login("SMOOKE");
-        Log("   Chabok --> Login : Succeeded");
+        bool checkLoggedIn = chabokPush.isLoggedIn();
+
+        ChabokDeferredDataListener deferredDataListener;
+
+        deferredDataListener = new ChabokDeferredDataListener();
+
+        deferredDataListener.onReferral += (referralId) =>
+        {
+            Log(referralId);
+        };
+
+        chabokPush.setDeferredDataListener(deferredDataListener);
+
+        if (checkLoggedIn)
+        {
+
+            Log("   Chabok --> is Logged in : true");
+            Log(chabokPush.getUserId());
+        }
+        else
+        {
+
+            Log("   Chabok --> is Logged in : false");
+            chabokPush.Login("SMOOKE");
+        }
+
+        //chabokPush.Login("SMOOKE");
+        //Log("   Chabok --> Login : Succeeded");
 
         chabokPush.AddTag("Hoss");
         Log("   Chabok --> AddTag : Succeeded");
 
 
-        var birthdayDate = new DateTime(1993,5,19, 20,10,33);
-        string[] favorites = { "Sport","TV", "Book", "Coding" };
+        var birthdayDate = new DateTime(1993, 5, 19, 20, 10, 33);
+        string[] favorites = { "Sport", "TV", "Book", "Coding" };
         Dictionary<string, object> attributes = new Dictionary<string, object>();
         attributes.Add("FirstName", "Hossein");
         attributes.Add("Age", 26);
@@ -81,21 +110,21 @@ public class Main : MonoBehaviour
 
 
         var expDate = new DateTime(2021, 10, 14, 11, 22, 33);
-        string[] editedFields = { "name", "family", "phone"};
+        string[] editedFields = { "name", "family", "phone" };
         Dictionary<string, object> eventData = new Dictionary<string, object>();
         eventData.Add("Edited Profile Title2", "Smooke");
         eventData.Add("Edited2", false);
         eventData.Add("Edited items2", 12);
         eventData.Add("ExpDate", expDate);
         eventData.Add("EditedFields", editedFields);
-        chabokPush.Track("Profile Edits",eventData);
+        chabokPush.Track("Profile Edits", eventData);
         Log("   Chabok --> Track : Succeeded");
 
         chabokPush.TrackRevenue(20000.0);
         Log("   Chabok --> TrackRevenue : Succeeded");
 
         var purchaseDate = new DateTime(2021, 10, 14, 11, 22, 33);
-        string[] card = { "rice", "tuna"};
+        string[] card = { "rice", "tuna" };
         Dictionary<string, object> revenueDic = new Dictionary<string, object>();
         revenueDic.Add("Badge", "VIP");
         revenueDic.Add("Discount", "18%");

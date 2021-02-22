@@ -31,19 +31,26 @@ public class ChabokApp extends Application {
         super.onCreate();
 
         AdpPushClient.setLogLevel(LogLevel.VERBOSE);
-		AdpPushClient.setApplicationContext(this);
-		AdpPushClient.setEnvironment(Environment.SANDBOX);
+	AdpPushClient.setApplicationContext(this);
+	AdpPushClient.setEnvironment(Environment.SANDBOX);
 		
-		AdpPushClient.init(getApplicationContext(),
-                ChabokActivity.class,
-                "adp-nms-push",
+	AdpPushClient.init(getApplicationContext(),
+               ChabokActivity.class,
+               "adp-nms-push",
                "e2100f0d7e071c7450f04e530bda746da2fc493b",
-                "adp",
-                 "test");
+               "adp",
+               "test");
 				 
 				 
-		AdpPushClient.get().setEnableRealtime(false);
-		AdpPushClient.get().setDevelopment(true);
+	AdpPushClient.get().setEnableRealtime(false);
+	AdpPushClient.get().setDevelopment(false);
+
+        String userId = AdpPushClient.get().getUserId();
+        if (userId != null) {
+            AdpPushClient.get().login(userId);
+        } else {
+            AdpPushClient.get().logout();
+        }
 				 
     }
 

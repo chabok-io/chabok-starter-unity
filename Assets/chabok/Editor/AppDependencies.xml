@@ -6,11 +6,11 @@
     </iosPod>
   </iosPods>
   <androidPackages>
-    <androidPackage spec="com.adpdigital.push:chabok-lib:3.5.0">
-    </androidPackage>
-    <androidPackage spec="me.leolin:ShortcutBadger:1.1.22@aar">
-    </androidPackage>
-    <androidPackage spec="com.android.installreferrer:installreferrer:1.0">
-    </androidPackage>
+   <androidPackage spec="com.adpdigital.push:chabok-lib:3.5.0">
+   </androidPackage>
+   <androidPackage spec="me.leolin:ShortcutBadger:1.1.22@aar">
+   </androidPackage>
+   <androidPackage spec="com.android.installreferrer:installreferrer:1.0">
+   </androidPackage>
   </androidPackages>
 </dependencies>

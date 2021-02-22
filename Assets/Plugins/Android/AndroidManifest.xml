@@ -18,7 +18,7 @@
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
-      <meta-data android:name="unityplayer.UnityActivity" android:value="true" />
+      <meta-data android:name="io.chabok.unity.ChabokActivity" android:value="true" />
     </activity>
     <receiver android:name="com.adpdigital.push.ChabokReferrerReceiver" android:permission="android.permission.INSTALL_PACKAGES" android:exported="true">
       <intent-filter>

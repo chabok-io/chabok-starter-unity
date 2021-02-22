@@ -1,5 +1,6 @@
 package io.chabok.unity;
 
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 
@@ -7,6 +8,7 @@ import com.adpdigital.push.AdpPushClient;
 import com.adpdigital.push.Callback;
 import com.adpdigital.push.ChabokEvent;
 import com.adpdigital.push.Datetime;
+import com.adpdigital.push.DeferredDataListener;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -23,8 +25,16 @@ public class ChabokPush {
         return chabok;
     }
 
+    public static void setDeferredDataListener(DeferredDataListener deferredDataListener) {
+        chabok.setDeferredDataListener(deferredDataListener);
+    }
+
     public static String getUserId() {
         return chabok.getUserId();
+    }
+
+    public static String isLoggedIn() {
+        return "" + chabok.isLoggedIn();
     }
 
     public static void login(String userId) {

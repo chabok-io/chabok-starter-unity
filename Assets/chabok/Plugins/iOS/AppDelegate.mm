@@ -18,6 +18,10 @@
 
 }
 
+-(void) chabokReferralResponse:(NSString *)referralId {
+    NSLog(@"chabok has received referral id ~> %@", referralId);
+}
+
 - (BOOL)application:(UIApplication *)application
             didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 

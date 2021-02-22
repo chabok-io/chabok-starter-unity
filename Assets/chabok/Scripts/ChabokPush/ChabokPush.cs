@@ -7,7 +7,7 @@ using System;
 
 public class ChabokPush {
 
-#if UNITY_ANDROID
+#if UNITY_ANDROID && !UNITY_EDITOR
     static AndroidJavaClass androidChabokPush;
 #endif
 
@@ -24,7 +24,7 @@ public class ChabokPush {
             {
                 if (instance == null)
                 {
-#if UNITY_ANDROID
+#if UNITY_ANDROID && !UNITY_EDITOR
                     androidChabokPush = new AndroidJavaClass("io.chabok.unity.ChabokPush");
 #endif
 
@@ -36,6 +36,12 @@ public class ChabokPush {
     }
 
 #if UNITY_IOS
+
+    [DllImport("__Internal")]
+    extern static private string iosGetReferralId();
+
+    [DllImport("__Internal")]
+    extern static private bool iosIsLoggedIn();
 
     [DllImport("__Internal")]
     extern static private void iosLogin(string userId);
@@ -193,9 +199,59 @@ public class ChabokPush {
     }
 #endif
 
+    public void setDeferredDataListener(ChabokDeferredDataListener chabokDeferredDataListener)
+    {
+#if UNITY_ANDROID && !UNITY_EDITOR
+        androidChabokPush.CallStatic("setDeferredDataListener",chabokDeferredDataListener);
+#endif
+    }
+
+//    public string getReferralId()
+//    {
+//#if UNITY_ANDROID && !UNITY_EDITOR
+//        return androidChabokPush.CallStatic<string>("getReferralId");
+//#elif UNITY_IOS
+//        //IntPtr refIdStringPtr = iosGetReferralId();
+//        //String refId = Marshal.PtrToStringAnsi(refIdStringPtr);
+//        return iosGetReferralId();
+
+//        //return (char *)"abc";
+//#else
+//        return "";
+//#endif
+//    }
+
+    public string getUserId()
+    {
+#if UNITY_ANDROID && !UNITY_EDITOR
+        return androidChabokPush.CallStatic<string>("getUserId"); ;
+//#elif UNITY_IOS
+//        iosLogin(userId);
+#else
+        return "";
+#endif
+    }
+
+    public bool isLoggedIn()
+    {
+#if UNITY_ANDROID && !UNITY_EDITOR
+    string result = androidChabokPush.CallStatic<string>("isLoggedIn");
+        if(result.Equals("true")) {
+            return true;
+        } else {
+            return false;
+        }
+//#elif UNITY_IOS
+//        return iosIsLoggedIn();
+#else
+        return false;
+#endif
+
+    }
+
     public void Login(string userId)
     {
-#if UNITY_ANDROID
+#if UNITY_ANDROID && !UNITY_EDITOR
         androidChabokPush.CallStatic("login",userId);
 #elif UNITY_IOS
         iosLogin(userId);
@@ -205,7 +261,7 @@ public class ChabokPush {
 
     public void Logout()
     {
-#if UNITY_ANDROID
+#if UNITY_ANDROID && !UNITY_EDITOR
         androidChabokPush.CallStatic("logout");
 #elif UNITY_IOS
         iosLogout();
@@ -215,7 +271,7 @@ public class ChabokPush {
 
     public void AddTag(string tagName, AndroidPluginCallback callback = null)
     {
-#if UNITY_ANDROID
+#if UNITY_ANDROID && !UNITY_EDITOR
         androidChabokPush.CallStatic("addTag", tagName, callback);
 #elif UNITY_IOS
         iosAddTag(tagName);
@@ -225,7 +281,7 @@ public class ChabokPush {
 
     public void RemoveTag(string tagName, AndroidPluginCallback callback = null)
     {
-#if UNITY_ANDROID
+#if UNITY_ANDROID && !UNITY_EDITOR
         androidChabokPush.CallStatic("removeTag", tagName, callback);
 #elif UNITY_IOS
         iosRemoveTag(tagName);
@@ -235,7 +291,7 @@ public class ChabokPush {
 
     public void SetUserAttributes(Dictionary<string, object> attributes)
     {
-#if UNITY_ANDROID
+#if UNITY_ANDROID && !UNITY_EDITOR
         androidChabokPush.CallStatic("setUserAttributes", ConvertDictionaryToJavaMap(attributes));
 #elif UNITY_IOS
         _setUserAttribute(attributes);
@@ -245,7 +301,7 @@ public class ChabokPush {
 
 //    public string chabokGetUserAttributes()
 //    {
-//#if UNITY_ANDROID
+//#if UNITY_ANDROID && !UNITY_EDITOR
 //return "";
 //        //return androidChabokPush.CallStatic("getUserAttributes");
 //#elif UNITY_IOS
@@ -256,7 +312,7 @@ public class ChabokPush {
 
     public void IncrementUserAttribute(string attribute, double value)
     {
-#if UNITY_ANDROID
+#if UNITY_ANDROID && !UNITY_EDITOR
         androidChabokPush.CallStatic("incrementUserAttribute", attribute, value);
 #elif UNITY_IOS
         iosIncrementUserAttributeValue(attribute, value);
@@ -266,7 +322,7 @@ public class ChabokPush {
 
     public void DecrementUserAttribute(string attribute, double value)
     {
-#if UNITY_ANDROID
+#if UNITY_ANDROID && !UNITY_EDITOR
         androidChabokPush.CallStatic("decrementUserAttribute", attribute, value);
 #elif UNITY_IOS
         iosDecrementUserAttributeValue(attribute, value);
@@ -276,7 +332,7 @@ public class ChabokPush {
 
     public void AddToUserAttributeArray(string key, string value)
     {
-#if UNITY_ANDROID
+#if UNITY_ANDROID && !UNITY_EDITOR
         androidChabokPush.CallStatic("addToUserAttributeArray", key, value);
 #elif UNITY_IOS
         iosAddToUserAttributeArray(key, value);
@@ -286,7 +342,7 @@ public class ChabokPush {
 
     public void RemoveFromUserAttributeArray(string key, string value)
     {
-#if UNITY_ANDROID
+#if UNITY_ANDROID && !UNITY_EDITOR
         androidChabokPush.CallStatic("removeFromUserAttributeArray", key, value);
 #elif UNITY_IOS
         iosRemoveFromUserAttributeArray(key, value);
@@ -296,7 +352,7 @@ public class ChabokPush {
 
     public void Track(string title, Dictionary<string, object> eventData)
     {
-#if UNITY_ANDROID
+#if UNITY_ANDROID && !UNITY_EDITOR
         androidChabokPush.CallStatic("track", title, ConvertDictionaryToJavaMap(eventData));
 #elif UNITY_IOS
         _track(title, eventData);
@@ -306,7 +362,7 @@ public class ChabokPush {
 
     public void TrackRevenue(double value)
     {
-#if UNITY_ANDROID
+#if UNITY_ANDROID && !UNITY_EDITOR
         androidChabokPush.CallStatic("trackRevenue", value);
 #elif UNITY_IOS
         iosTrackRevenue(value);
@@ -316,7 +372,7 @@ public class ChabokPush {
 
     public void TrackPurchase(string title, double value, string currency, Dictionary<string, object> purchaseData)
     {
-#if UNITY_ANDROID
+#if UNITY_ANDROID && !UNITY_EDITOR
         if(!purchaseData.ContainsKey("currency")) purchaseData.Add("currency", currency);
         androidChabokPush.CallStatic("trackPurchase", title,value, ConvertDictionaryToJavaMap(purchaseData));
 #elif UNITY_IOS
@@ -326,7 +382,7 @@ public class ChabokPush {
 
     }
 
-#if UNITY_ANDROID
+#if UNITY_ANDROID && !UNITY_EDITOR
     public AndroidJavaObject ConvertDictionaryToJavaMap(Dictionary<string, object> dictionary)
     {
 
